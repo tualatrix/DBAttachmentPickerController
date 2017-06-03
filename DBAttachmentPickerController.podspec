@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.requires_arc = true
   s.platform     = :ios, '8.0'
-  s.source       = { :git => 'https://github.com/tualatrix/DBAttachmentPickerController.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/tualatrix/DBAttachmentPickerController.git', :branch => "master" }
   s.source_files = 'Source/**/*.{h,m}'
   s.resources = 'Source/**/*.{xib}'
   s.resource_bundle = { 'DBAttachmentPickerController' => ['Source/Localization/*.lproj'] }
