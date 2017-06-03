@@ -24,6 +24,8 @@ static const CGSize kDefaultMediaTypeIconSize = {16.f, 16.f};
 @implementation DBAssetImageView
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
+
     self.mediaTypeImageView = [[UIImageView alloc] init];
     [self addSubview:self.mediaTypeImageView];
     
